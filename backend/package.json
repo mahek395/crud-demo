@@ -4,8 +4,8 @@
   "description": "Course registration CRUD API - MEMIGHTY trial rehearsal",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "node api.js && nodemon server.js",
+    "start": "node api.js && node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
